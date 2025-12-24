@@ -54,4 +54,4 @@ else:
 # Print the result
 print("\nYour federal income tax is: ${:.2f}".format(tax))
 
-print("\nThank you for using the tax calculator! 😊")
+print("\nThank you for using my company tax calculator! 😊")
