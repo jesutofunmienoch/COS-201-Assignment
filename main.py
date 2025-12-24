@@ -6,12 +6,12 @@
 # This program calculates the federal income tax based on filing status and taxable income
 # using the 2009 tax brackets
 
-# Ask user for filing status
+# this aspect is to ask user for filing status
 print("US Federal Income Tax Calculator (2009)")
 print("-------------------------------------")
 print("Enter your filing status:")
 print("0 - Single")
-print("1 - Married Filing Jointly or Qualifying Widow(er)")
+print("1 - Married Filing Jointly ")
 print("2 - Married Filing Separately")
 print("3 - Head of Household")
 status = int(input("Enter number (0-3): "))
@@ -54,4 +54,4 @@ else:
 # Print the result
 print("\nYour federal income tax is: ${:.2f}".format(tax))
 
-print("\nThank you for using the tax calculator!")
+print("\nThank you for using the tax calculator! 😊")
